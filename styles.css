@@ -125,6 +125,7 @@ body {
 .hero-greeting {
     font-size: 26px;
     margin-bottom: -8px;
+    filter: drop-shadow(2px 4px 6px black);
     margin-left: 3px;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
@@ -135,8 +136,9 @@ body {
 .hero-name {
     font-size: 64px;
     font-weight: 400;
+    filter: drop-shadow(2px 4px 6px black);
     margin-bottom: 9px;
-    color: #ffffff;
+    color: #646464;
     font-family: 'Inter', sans-serif;
     line-height: 60px;
 }
@@ -145,6 +147,7 @@ body {
     font-size: 20px;
     color: #dddddd; /* Brighter text for better contrast */
     margin-bottom: 40px;
+    filter: drop-shadow(2px 4px 6px black);
     margin-left: 5px;
     font-family: 'Inter', sans-serif;
     line-height: 44px; /* More natural spacing */
@@ -274,6 +277,7 @@ body {
 
 .about-text p {
     font-size: 32px;
+    filter: drop-shadow(6px 6px 6px black);
     line-height: 60px;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
